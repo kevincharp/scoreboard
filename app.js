@@ -36,9 +36,15 @@ function reset() {
   guestEl.textContent = 0;
 }
 
-// function back() {
-//   sum1 = sum1 - 1;
-//   sum2 = sum2 - 1;
-//   homeEl.textContent = sum1;
-//   guestEl.textContent = sum2;
-// }
+function backhome() {
+  sum1 = sum1 - 1;
+  homeEl.textContent = sum1;
+  guestEl.textContent = sum2;
+}
+
+
+function backguest() {
+  sum2 = sum2 - 1;
+  homeEl.textContent = sum1;
+  guestEl.textContent = sum2;
+}

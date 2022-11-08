@@ -16,7 +16,7 @@ body {
 .container {
   display: flex;
   justify-content: space-around;
-  width: 800px;
+  width: 1000px;
   margin: 100px auto;
   background: #1f2937;
   padding: 20px;
@@ -59,7 +59,7 @@ button {
   align-self: flex-end;
 }
 
-.reset-div > h2 {
+.reset-div>h2 {
   background: none;
 }
 
@@ -75,14 +75,14 @@ button {
 }
 
 .back-btn {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 25px;
-  letter-spacing: 1px;
-  margin-left: 20px;
-  background: #080001;
+  font-family: "cursed-timer";
+  font-size: 20px;
+  background: transparent;
   color: #ff0000;
-  text-shadow: 0 0 500px black;
-  font-weight: 700;
+  padding: 10px;
+  border: 1px solid #9aabd8;
+  border-radius: 8px;
+  margin-bottom: 30px;
 }
 
 .reset-btn:hover {
