@@ -5,9 +5,9 @@
 
 body {
   margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:'Ubuntu', sans-serif;
   color: #fff;
-  background: url("faarg.jpeg");
+  background-color: #161717;
   background-position: center center;
   background-size: cover;
   height: 100vh;
@@ -35,7 +35,7 @@ h2 {
   font-family: "cursed-timer";
   font-size: 90px;
   font-weight: 400;
-  background: #080001;
+  /* background: #161717; */
   color: #1500ff;
   padding: 10px 20px 5px 20px;
   margin: 30px auto;
